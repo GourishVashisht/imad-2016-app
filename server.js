@@ -18,11 +18,11 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/ui/article-onne.html', function(req, res){
-   res.sendFile( "this is the first article and i have edited it myself.");
+   res.send( 'this is the first article and i have edited it myself.');
 });
 
 app.get('/ui/article-two.html', function(req, res){
-   res.sendFile( "this is the second article and i have edited it myself.");
+   res.send( 'this is the second article and i have edited it myself.');
 });
 
 
